@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@config "./talwind.config.js"
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('./fonts/Vazir-Medium.woff');
+}
