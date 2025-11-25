@@ -212,6 +212,12 @@
   .my-8 {
     margin-block: calc(var(--spacing) * 8);
   }
+  .mt-2 {
+    margin-top: calc(var(--spacing) * 2);
+  }
+  .mt-3 {
+    margin-top: calc(var(--spacing) * 3);
+  }
   .mt-4 {
     margin-top: calc(var(--spacing) * 4);
   }
@@ -221,8 +227,14 @@
   .mt-13 {
     margin-top: calc(var(--spacing) * 13);
   }
+  .mt-24 {
+    margin-top: calc(var(--spacing) * 24);
+  }
   .mt-30 {
     margin-top: calc(var(--spacing) * 30);
+  }
+  .mb-2 {
+    margin-bottom: calc(var(--spacing) * 2);
   }
   .mb-3 {
     margin-bottom: calc(var(--spacing) * 3);
@@ -245,6 +257,12 @@
   .table {
     display: table;
   }
+  .h-\[11px\] {
+    height: 11px;
+  }
+  .h-\[52px\] {
+    height: 52px;
+  }
   .h-\[116px\] {
     height: 116px;
   }
@@ -266,14 +284,17 @@
   .w-\[364px\] {
     width: 364px;
   }
+  .w-\[400px\] {
+    width: 400px;
+  }
   .w-\[410px\] {
     width: 410px;
   }
-  .w-\[450px\] {
-    width: 450px;
-  }
   .w-\[500px\] {
     width: 500px;
+  }
+  .w-\[506px\] {
+    width: 506px;
   }
   .w-\[544px\] {
     width: 544px;
@@ -352,9 +373,6 @@
     border-right-style: var(--tw-border-style);
     border-right-width: 2px;
   }
-  .border-\[\#\] {
-    border-color: #;
-  }
   .border-\[\#d3f85a\] {
     border-color: #d3f85a;
   }
@@ -367,17 +385,8 @@
   .bg-\[\#131e3a\] {
     background-color: #131e3a;
   }
-  .bg-\[\#\] {
-    background-color: #;
-  }
   .bg-\[\#d3f85a\] {
     background-color: #d3f85a;
-  }
-  .bg-\[131e3a\] {
-    background-color: 131e3a;
-  }
-  .bg-\[\@\] {
-    background-color: @;
   }
   .mask-t-to-blue-300 {
     mask-image: var(--tw-mask-linear), var(--tw-mask-radial), var(--tw-mask-conic);
@@ -431,6 +440,9 @@
   .text-\[48px\] {
     font-size: 48px;
   }
+  .text-\[480px\] {
+    font-size: 480px;
+  }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
@@ -450,6 +462,15 @@
   .text-\[\#fffffdb8\] {
     color: #fffffdb8;
   }
+  .text-\[20\] {
+    color: 20;
+  }
+  .text-\[fffffdb8\] {
+    color: fffffdb8;
+  }
+  .text-black {
+    color: var(--color-black);
+  }
   .no-underline {
     text-decoration-line: none;
   }
@@ -464,20 +485,6 @@
     &:hover {
       @media (hover: hover) {
         background-color: #d3f85a;
-      }
-    }
-  }
-  .hover\:text-\[\#000\] {
-    &:hover {
-      @media (hover: hover) {
-        color: #000;
-      }
-    }
-  }
-  .hover\:text-\[\#0000\] {
-    &:hover {
-      @media (hover: hover) {
-        color: #0000;
       }
     }
   }
